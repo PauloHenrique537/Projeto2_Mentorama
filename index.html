@@ -6,162 +6,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlackCoffee</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <button>
-            <img src="./assets/banner/Burger.png" alt="menuambuguer">
-        </button>
-        <h6>BlackCoffee</h6>
-        <button>
-            <img src="./assets/banner/sacola.png" alt="sacola de compras">
-        </button>
-        <img src="./assets/banner/menubarra.png" alt="barramenu">
-        <h1>Preparamos o melhor café fresco da torra cada dia</h1>
-        <p>Entregamos em todo Brasil</p>
-        <button>
-            <img src="./assets/banner/seta1.png" alt="seta1">
-        </button>
-        <button>
-            <img src="./assets/banner/seta2.png" alt="seta2">
-        </button>
+    <header class="header">
+        <div class="container">
+            <div>
+               <img class="bottao-menu"  src="./assets/banner/Burger.png" alt="Menu">
+            </div>
+            <div>
+               <h1 class="title">Black<i>Coffee</i></h1>
+            </div>
+            <div>
+               <img class="botao-sacola" src="assets/banner/sacola.png"  alt="sacola">
+            </div>
+        </div>
+        <div class="container2">
+            <div  class="barra">
+                <img  class="menu-barra" src="./assets/banner/menubarra.png" alt="barramenu">
+                <h2 class="texto-slog">Preparamos o </br>melhor café fresco</br>da torra cada dia</h2>
+                <p class="paragrafo">Entregamos em todo Brasil</p>
+            </div>
+            <div class="controles">
+                <img  class="direito" src="./assets/banner/seta1.png" alt="seta1">
+                <img  class="esquerdo" src="./assets/banner/seta2.png" alt="seta2">
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <div>
-                <img src="./assets/banner/Rectangle 15.png" alt="Rectangle15">
-                <h3>Café magico...</h3>
-                <p>Preparado com os melhores ingredientes e com os melhores acessórios, seguindo os métodos tradicionais e os mais modernos.</p>
-                <h3>...e muito mais</h3>
-                <p>Não esqueça de dar uma olhada em nossa seleção de sobremesas deliciosas!</p>
-                <img src="./assets/banner/Rectangle 16.png" alt="Rectangle16">
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2>Variedades de café</h2>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
-            </div>
-            <div>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
+    <main class="main">
+        <section class="destaques">
+            <div class="destaque">
+                <div class="destaque-img">
+                    <img src="./assets/banner/Rectangle 15.png" alt="Rectangle15">
                 </div>
                 <div>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
+                    <h3>Café magico...</h3>
+                    <p>Preparado com os melhores ingredientes e com os melhores acessórios, seguindo os métodos tradicionais e os mais modernos.</p>
+                </div>
             </div>
-            <div>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
-            </div>
-            <div>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
-            </div> 
-            <div>
-                <h6>RUANDA UMARAGE NAT</h6>
-                <img src="./assets/banner/saco_de_café.jpg" alt="saco de café">
-                <p>40 R$ <span>60 R$</span></p>
-                <button>+ adicionar ao carrinho</button>
+            <div class="destaque"">
+                <div>
+                    <h3>...e muito mais</h3>
+                    <p >Não esqueça de dar uma olhada em nossa seleção de sobremesas deliciosas!</p>
+                </div>
+                <div>
+                    <img class="imag-xicara-de-cafe" src="./assets/banner/Rectangle 16.png" alt="Rectangle16">
+                </div>
             </div>
         </section>
-        <section>
+        <section class="variedades">
+            <div>
+                <h2>Variedades de café</h2>
+            </div>
+        </section>
+        <section class="container-section">
+            <div class="produto">
+                <h6 >RUANDA UMARAGE NAT</h6>
+                <img src="./assets/banner/saco-cafe.png" alt="saco de café">
+                <p><spam class="value">40 R$</spam><span class="second-value">60 R$</span></p>
+                <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+            </div>
+            <div class="produto">
+               <h6>RUANDA UMARAGE NAT</h6>
+               <img src="./assets/banner/saco-cafe.png" alt="saco de café">
+               <p><span class="value">40 R$</span><spam class="second-value">60 R$</span></p>
+               <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+               </div>
+            <div class="produto">
+                <h6 >RUANDA UMARAGE NAT</h6>
+                <img  src="./assets/banner/saco-cafe.png" alt="saco de café">
+                <p><spam class="value">40 R$</spam><spam class="second-value">60 R$</span></p>
+                <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+            </div>
+        </section>
+        <section class="container-section-segunda">
+            <div class="produto">
+                <h6>RUANDA UMARAGE NAT</h6>
+                <img src="./assets/banner/saco-cafe.png" alt="saco de café">
+                <p><spam class="value">40 R$</spam><span class="second-value">60 R$</span></p>
+                <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+            </div>
+            <div class="produto">
+                <h6>RUANDA UMARAGE NAT</h6>
+                <img src="./assets/banner/saco-cafe.png" alt="saco de café">
+                <p><spam class="value">40 R$</spam><span class="second-value">60 R$</span></p>
+                <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+            </div>
+            <div  class="produto">
+                <h6>RUANDA UMARAGE NAT</h6>
+                <img src="./assets/banner/saco-cafe.png" alt="saco de café">
+                <p><spam class="value">40 R$</spam><span class="second-value">60 R$</span></p>
+                <button><span style="color: #ffffff;">+ adicionar ao carrinho</span></button>
+             </div>
+        </section>
+        <section class="container-servicos">
             <div>
                 <img src="./assets/banner/caminhao.png" alt="caminhao">
-                <p>Entrega gratuita</p>
-                <img src="./assets/banner/image 3.jpg" alt="entrega">
-                <p>Pagamento na entrega</p>
-                <img src="./assets/banner/image 3 (1).jpg" alt="carteira">
-                <p>Política de reembolso</p>
+                <p>Entrega </br>gratuita</p>
+            </div>
+            <div>
+                <img  src="./assets/banner/image 3.jpg" alt="entrega">
+                <p>Pagamento </br>na entrega</p>
+            </div>
+            <div>
+                <img  src="./assets/banner/image 3 (1).jpg" alt="carteira">
+                <p>Política de</br>reembolso</p>
+            </div>
+            <div>
                 <img src="./assets/banner/image 3 (2).jpg" alt="desconto">
-                <p>Sistema de descontos acumuláveis</p>
+                <p>Sistema de descontos</br>acumuláveis</p>
+            </div>
+            <div>
                 <img src="./assets/banner/image 3 (3).jpg" alt="presente">
-                <p>Presente por cada 6 caixas de café</p>
+                <p>Presente por cada</br> 6 caixas de café</p>
             </div>
         </section>
-        <section class="seçao_café">
-                <h3>Catálogo de cafés</h3>
+        <section class="catalago">
+            <div class="catalago-setion">
+                <h3 >Catálogo de cafés</h3>
                 <p>Mais de 50 tipos de café fresco da torra para qualquer método de preparo</p>
-        </section>
-        <section class="cafetera">
+            </div>
+            <div class="cafetera">
                 <h3>Acessórios</h3>
-                <p>Todo o que a gente precisa para preparar um café saboroso em casa</p>
+                <p>Todo o que a gente precisa para preparar um</br>café saboroso em casa</p>
+            </div>
         </section>
-        <section>
+        <section  class="container-form">
             <form>
-                <h3>Encontre uma loja</h3>
-                <select name="select">
-                <option value="valo1">Escolha a cidade</option>
+                <div><h3>Encontre uma loja</h3></div>
+                <select>
+                  <option value="valo1">Escolha a cidade</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio grande do sul </option>
+                  <option value="RS">Rio Grande do sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">sergipe</option>
+                  <option value="TO">Tocantins</option>
                 </select>
                 <input type="text" placeholder="Digite o endereço">
             </form>
         </section>
-        <section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13079.265978760775!2d-38.37263533064433!3d-12.940528258135393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1683150114994!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13079.265978760775!2d-38.37263533064433!3d-12.940528258135393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1683150114994!5m2!1spt-BR!2sbr" width="2250" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
-        <div>
-            <div>
-                <p>BlackCoffee</p>
-            </div>
-            <div>
-                <h6>INSTITUCIONAL</h6>
+        <div class="containers">
+           <div class="brand">
+              <h1>BlackCoffee</h1>
+           </div>
+           <div class="container">
                 <ul>
-                    <li>
-                        <a>Quem somos</a>
-                    </li>
-                    <li>
-                        <a>Certificados</a>
-                    </li>
-                    <li>
-                        <a>Nossa produção</a>
-                    </li>
-                    <li>
-                        <a>Programa de parceiros</a>
-                    </li>
+                   <h6>INSTITUCIONAL</h6>
+                   <li>Quem somos</li>
+                   <li>Certificados</li>
+                   <li>Nossa produção</li>
+                  <li>Programa de parceiros</li>
                 </ul>
             </div>
-            <div>
-                <h6>PRODUTOS</h6>
+            <div class="container">
                 <ul>
-                    <li>
-                        <a>Café</a>
-                    </li>
-                    <li>
-                        <a>Té</a>
-                    </li>
-                    <li>
-                        <a>Acessórios</a>
-                    </li>
-                    <li>
-                        <a>Ofertas</a>
-                    </li>
+                    <h6>PRODUTOS</h6>
+                    <li>Cafe</li>
+                    <li>Te</li>
+                    <li>Acessórios</li>
+                   <li><a>Ofertas</a></li>
                 </ul>
             </div>
-            <div>
-                <h6>REDES SOCIAIS</h6>
+            <div class="container">
                 <div>
-                    <a href=""><img src="./assets/banner/Instagram.png" alt="Instagram"></a>
-                    <a href=""><img src="./assets/banner/Twitter.png" alt="Twitter"></a>
-                    <a href=""><img src="./assets/banner/Facebook.png" alt="Facebook"></a>
+                   <h6>REDES SOCIAIS</h6>
+                   <a href=""><img src="./assets/banner/Instagram.png" alt="Instagram"></a>
+                   <a href=""><img src="./assets/banner/Twitter.png" alt="Twitter"></a>
+                   <a href=""><img src="./assets/banner/Facebook.png" alt="Facebook"></a>
                 </div>
             </div>
         </div>
-        <div>
+        <div class="container-footer">
             <p>DESIGNED BY</p>
-            <img src="./assets/banner/mentorama..jpg" alt="mentorama">
+            <img src="./assets/banner/mentorama.jpg" alt="mentorama">
         </div>
     </footer>   
 </body>
