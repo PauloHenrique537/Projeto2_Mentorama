@@ -20,7 +20,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("./assets/banner/logo.png");
-    color: #1F1F1F80;
+    color: (0deg, rgba(31, 31, 31, 0.5), rgba(31, 31, 31, 0.5));
 }
  
 .container {
@@ -96,11 +96,11 @@ body{
 
 /* main */
 .destaques  {
-    padding-top: 70px;
+    padding-top: 90px;
     width: 85%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
 }
 
 .destaque {
@@ -108,7 +108,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     padding-left: 100px;
 }
 
@@ -267,7 +267,7 @@ body{
     height: 480px;
     background-image: url("./assets/banner/Rectangle\ 20.jpg");
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 25px;
     flex-direction: column;
 
 }
@@ -363,12 +363,13 @@ form input{
 
 .iframe {
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 footer {
     background: #F7F1E6;
     margin-top: 40px;
+    width: 1530px;
 
 }
 
@@ -376,25 +377,27 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 0px;
-    padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 100%;
   
 }
 
-.brand{
+.brand h3{
     font-family: 'Playfair Display';
     display: flex;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     align-items: center;
     color: #0B1D03;
     height: 28px;
     width: 120px;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-top: 30px;
 
 }
 
-.container h6 {
+.containers h6 {
     font-size: 16px;
     margin-bottom: 15px;
     font-weight: 300;
@@ -417,6 +420,9 @@ li {
     margin: 60px 0px 20px 0;
     align-items: flex-start;
     justify-content: center;
+    background: #F7F1E6;
+    height: 60px;
+
 }
 
 .creditos p {
@@ -424,9 +430,10 @@ li {
     font-family: 'Open Sans';
     display: flex;
     align-items: center;
-    font-weight: 800;
+    font-weight:900;
     font-size: 20px;
-    margin: 0px
+    margin: 0px;
+    height: 21px;
 }
 
 .creditos img{
