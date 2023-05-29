@@ -94,7 +94,10 @@ body{
 }
 /* Fim da estilização do header */
 
-/* main */
+
+.main {
+    background: #F5F5F5;;
+}
 .destaques  {
     padding-top: 90px;
     width: 85%;
@@ -144,6 +147,7 @@ body{
     margin-top: 10px;
     display: flex;
     align-items: center;
+    background: #F5F5F5;
 }
 
 .variedades h2 {
@@ -346,18 +350,19 @@ form {
 }
 
 form select {
-    width: 300px;
+    width: 320px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
-    height: 44px;
+    height: 42px;
 
 }
 
 form input{
-    width: 1155px;
+    width: 1120px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
-    height: 38px;
+    height: 36px;
+    margin-left: 15px;
     
 }
 
@@ -367,9 +372,8 @@ form input{
 }
 
 footer {
-    background: #F7F1E6;
     margin-top: 40px;
-    width: 1530px;
+    max-width: 1550px;
 
 }
 
@@ -380,6 +384,8 @@ footer {
     padding-left: 50px;
     padding-top: 20px;
     width: 100%;
+    background: #F7F1E6;
+    height: 300px;
   
 }
 
@@ -420,8 +426,13 @@ li {
     margin: 60px 0px 20px 0;
     align-items: flex-start;
     justify-content: center;
-    background: #F7F1E6;
-    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    background:  #F7F1E6;
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+
 
 }
 
