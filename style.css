@@ -11,7 +11,7 @@
 body{
     margin: 0;
     font-family: 'Playfair Display', serif;
-    background: #F5F5F5;
+    background:  #FFFCF6;
 
 }
 
@@ -181,7 +181,6 @@ body{
     Height:550px;
     align-items: center;
     padding-left: 30px;
-    background: #F7F1E6;
 } 
 
 .produto  h6 {
