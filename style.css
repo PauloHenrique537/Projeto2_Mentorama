@@ -11,7 +11,7 @@
 body{
     margin: 0;
     font-family: 'Playfair Display', serif;
-    background:  #FFFCF6;
+    background:  #F5F5F5;
 
 }
 
@@ -98,20 +98,31 @@ body{
 
 
 .destaques  {
-    padding-top: 90px;
+    padding-top: 70px;
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+
+
 }
 
 .destaque {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 300px;
-    padding-left: 120px;
+    justify-content: space-around;
+    margin-bottom:100px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.destaque-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:100px;
+    padding-left: 80px;
 }
 
 .destaque img {
@@ -178,9 +189,10 @@ body{
     border-radius: 8px;
     Width:400px;
     margin-bottom: 50px;
-    Height:550px;
+    Height:530px;
     align-items: center;
     padding-left: 30px;
+    background: #F7F1E6
 } 
 
 .produto  h6 {
@@ -235,7 +247,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: #FFFCF6;
+    background: #F5F5F5;
 
 }
 
@@ -262,17 +274,18 @@ body{
     justify-content: space-around;
     padding-top: 10px;
     padding-left: px;
-    background: #FFFCF6;
+    background: #F5F5F5;
 }
 
 .catalago {
-    width: 650px;
+    width: 680px;
     display: flex;
     height: 480px;
-    background-image:  url("./assets/banner/Rectangle\ 20.jpg");
+    background:  url("./assets/banner/Rectangle\ 20.jpg");
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
     flex-direction: column;
+    margin-bottom: 90px;
 }
 
 .catalago h3 {
@@ -305,7 +318,6 @@ body{
     padding-left: 30px;
     flex-direction: column;
     background-image: url("./assets/banner/Rectangle\ 20\ \(1\).jpg");
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%),
 }
 
 .acess h3 {
@@ -329,9 +341,9 @@ body{
 
 
 .contato {
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 10px;
-    ackground: #FFFFFF;
+    background: #F5F5F5;
 
 }
 
@@ -342,7 +354,7 @@ body{
     font-size: 56px;
     color: #0B1D03;
     line-height: 60px;
-    padding-left: 37px;
+    padding-left: 30px;
     height: 60px;
 }
 
@@ -351,6 +363,7 @@ form {
 }
 
 form select {
+    box-sizing: border-box;
     width: 440px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
@@ -369,7 +382,7 @@ form input{
     border: 2px solid #0B1D03;
     border-radius: 4px;
     height: 42px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 
@@ -384,92 +397,89 @@ form input{
 .iframe {
     padding-left: 50px;
     padding-top: 20px;
+    margin-bottom: 35px;
+    background: #F5F5F5;
 }
 
-footer {
-    display: 100%;
-    margin-top: 40px;
-    width: 1583px;
-    background: #F7F1E6;
-    height: 400px;
+footer{
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-left: 0px;
-
+    background: #F7F1E6;
+    padding-top: 10px;
+    
 }
 
-.containers {
+.container-footer{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 50px;
-    padding-top: 0;
-    height: 300px;
-    background-size: cover;
-  
+    justify-content: space-between;
 }
 
-.containers h3{
-    font-family: 'Playfair Display';
-    display: flex;
-    font-weight: 900;
-    font-size: 20px;
-    color: #0B1D03;
-    height: 28px;
-    width: 120px;
-    padding-top: 10px;
-    padding-left: 0%;
-
-}
-
-.containers h6 {
-    font-size: 16px;
-    margin-bottom: 15px;
-    font-weight: 300;
+.footer-logo {
     align-items: center;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 28px;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 25px;
+
+}
+
+.intst-produt h6 {
+    font-family: 'Open Sans';
+   font-weight: 300;
+   font-size: 20px;
+   align-items: center;
+
+}
+
+.redes{
+    padding-right: 200px;
+    align-items: center;
+}
+
+.redes h6{
+    font-family: 'Open Sans';
+   font-weight: 300;
+   font-size: 20px;
+   align-items: center;
+}
+
+.redes img {
+    padding-left: 10px;
+    width: 40px;
 }
 
 ul {
-    list-style-type: none ;
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #1F1F1F;
-}   
-
-li {
-    margin: 10px 0px 10px 0;
 }
 
-.creditos {
+li {
+    margin: 10px 0 10px 0;
+}
+
+.creditos{
     display: flex;
     flex-direction: row;
-    margin: 60px 0px 20px 0;
     align-items: flex-start;
+    margin: 60px 0 20px 0;
     justify-content: center;
-    flex-direction: row;
-    background:  #F7F1E6;
-    width: 100%;
-    height: 20px;
-    margin-top: 0;
-
-
 }
 
 .creditos p {
-    color: #1F1F1F;
-    font-family: 'Open Sans';
-    display: flex;
-    align-items: center;
-    font-weight:900;
+    margin: 0;
     font-size: 20px;
-    margin: 0px;
-    height: 21px;
+    font-family: 'Open Sans';
+    font-weight: 800;
 }
 
-.creditos img{
-    margin-left: 20px;
-}
-
-.compl-color {
-    background:  #F7F1E6;
+.creditos img {
+    padding-left: 10px;
+    background: #F7F1E6;
+    width: 140px;
 }
