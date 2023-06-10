@@ -21,6 +21,7 @@ body{
     height: 120vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background: linear-gradient(#1F1F1F80 50%);
     background: url("./assets/banner/logo.png");
 }
  
@@ -353,6 +354,7 @@ button{
     border: 2px solid #0B1D03;
     padding-left: 20px;
     color: #969696;
+    font-size: 20px;
 
 
 }
@@ -364,6 +366,7 @@ button{
     border-radius: 4px;
     padding-left: 20px;
     color: #969696;
+    font-size: 20px;
 
 }
 
