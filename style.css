@@ -100,7 +100,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-left: 0px;
 }
 
@@ -109,6 +109,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 0px;
+    padding-top: 20px;
 }
 
 .destaque{
@@ -116,16 +118,16 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .destaque img{
     padding-left: 0px;
-    width: 700px;
+    width: 820px;
 }
 
 .destaque-texto h3 {
     width: 400px;
-    padding-left: 30px;
+    padding-left: 60px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
@@ -147,7 +149,7 @@ main{
 
 .variedades  {
     width: 500px;
-    padding-left: 80px;
+    padding-left: 40px;
     font-size: 40px;
     color:  #A0996C;
     padding-top: 40px;
@@ -163,11 +165,12 @@ main{
 }
 
 .produto{
-    width: 400px;
-    background: #F7F1E6;
+    width: 460px;
+    background:  #F7F1E6;
     border-radius: 8px;
     align-items: center;
     height: 540px;
+    text-align: center;
 }
 
 .produto h6{
@@ -179,27 +182,31 @@ main{
     font-size: 24px;
     line-height: 28px;
     color: #0B1D03;
+    text-align: center;
 }
 
 .produto img {
     width: 200px;
-    align-content: center;
+    align-items: center;
     padding-top: 10px;
-    padding-left: 110px;
+    padding-left: 0px;
+    
 }
 
 .produto p {
     padding-top: 6px;
-    text-align: center;
+    text-align: center
     font-family: 'Open Sans';
+    padding-left: 0px;
 }
-.primeiro_value {
+.primeiro_value{
    color: #0B1D03;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 800;
    font-size: 32px;
    line-height: 40px;
+   align-items: center;
 }
 
 span {
@@ -223,7 +230,8 @@ button{
 }
 
 .btn {
-    padding-left: 90px;
+    padding-left: 110px;
+    align-items: center;
 }
 
 .servicos{
@@ -258,8 +266,10 @@ button{
 }
 
 .catalago {
-    width: 650px;
+    width: 715px;
     height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("./assets/banner/Rectangle\ 20.jpg");
 }
 
@@ -286,8 +296,10 @@ button{
 }
 
 .acess{
-    width: 650px;
+    width: 715px;
     height: 560px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("./assets/banner/Rectangle\ 20\ \(1\).jpg");
 }
 
@@ -317,7 +329,8 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 90px;
+    padding-left: 45px;
+    background: #FFFFFF;
 }
 
 .contato h3{
@@ -327,6 +340,7 @@ button{
     font-size: 56px;
     line-height: 60px;
     padding-top: 30px;
+    padding-left: 0px;
 }
 
 .escolha {
@@ -344,7 +358,7 @@ button{
 }
 
 .Digi-ende {
-    width: 920px;
+    width: 1005px;
     height: 40px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
@@ -356,11 +370,11 @@ button{
 
 .iframe {
     padding-top: 20px;
-    padding-left:90px;
+    padding-left:48px;
 }
 
 .iframe img {
-    width: 1400px;
+    width: 1480px;
     margin-bottom: 30px;
 }
 
@@ -384,14 +398,14 @@ footer{
 }
 
 .brand {
-    width: 150px;
-    font-size: 28px;
+    width: 50px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     color: #0B1D03;
     font-family: 'Playfair Display';
-    padding-left: 90px;
-    padding-top: 10px;
+    padding-left: 45px;
+    padding-top: 20px;
     height: 28px;
     line-height: 28px;
 }
