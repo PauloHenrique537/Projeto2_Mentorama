@@ -12,9 +12,9 @@ body{
     background:  #FFFCF6;
     margin: 0px;
     padding: 0px;
+
+
 }
-
-
 
 .header{
     width: 100%;
@@ -364,7 +364,7 @@ button{
 }
 
 .Digi-ende {
-    width: 1005px;
+    width: 1010px;
     height: 40px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
