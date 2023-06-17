@@ -111,7 +111,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-left: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .destaque{
@@ -123,7 +123,7 @@ main{
 }
 .destaque img{
     padding-left: 0px;
-    width: 840px;
+    width: 830px;
 }
 
 .destaque-texto h3 {
@@ -134,7 +134,7 @@ main{
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    color: var(--preto-texto)
+    color: var(--preto-texto);
 }
 .destaque-texto p{
     font-family: 'Open Sans';
@@ -335,7 +335,7 @@ button{
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 45px;
-    background-color:  #FFFFFF;
+    background: #FFFFFF;
 }
 
 .contato h3{
@@ -344,35 +344,33 @@ button{
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 0px;
 }
 
 .escolha {
-    height: 54px;
+    height: 56px;
     width: 450px;
     text-align: justify;
-    top: 0px;
+    margin-top: 0px;
     border-radius: 4px;
     align-items: center;
     border: 2px solid #0B1D03;
     padding-left: 18px;
     color: #969696;
     font-size: 20px;
-    padding-top: 10px;
     padding-left: 10px;
-    align-items: center;
 }
 
 .Digi-ende {
-    width: 1010px;
-    height: 40px;
+    width: 1015px;
+    height: 51px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
     padding-left: 20px;
     color: #969696;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 10px;
     align-items: center;
     margin-bottom: 10px;
@@ -385,14 +383,13 @@ button{
 }
 
 .iframe img {
-    width: 1480px;
+    width: 1485px;
     margin-bottom: 30px;
 }
 
 footer{
     width: 100%;
     background: #F7F1E6;
-    height: 400px;
     
 }
 
@@ -416,8 +413,8 @@ footer{
     font-weight: 700;
     color: #0B1D03;
     font-family: 'Playfair Display';
-    padding-left: 45px;
-    padding-top: 15px;
+    padding-left: 50px;
+    padding-top: 20px;
     height: 32px;
     line-height: 28px;
 }
@@ -425,11 +422,13 @@ footer{
 .container-footer h6 {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     align-items: center;
     color: #1F1F1F;
+    padding-top: 10px;
+    margin-bottom: 15px;
 }
 
 ul{
@@ -439,22 +438,19 @@ ul{
 }
 
 li {
-    width: 300px;
-    margin: 5px 0 5px 0;
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: 'Open Sans
+    ';
+    margin: 10px 0px 10px 0;
     font-weight: 300;
     font-size: 20px;
-   line-height: 28px;
-   color: #1F1F1F;
-   align-items: center;
-   height: 28px
+    color: #1F1F1F;
+   
 }
 
 
 .redes {
     padding-right: 12%;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .creditos {
