@@ -111,7 +111,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-left: 0px;
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .destaque{
@@ -119,11 +119,11 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .destaque img{
     padding-left: 0px;
-    width: 830px;
+    width: 700px;
 }
 
 .destaque-texto h3 {
@@ -139,8 +139,8 @@ main{
 .destaque-texto p{
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
+    font-weight: 300px;
+    font-size: 34px;
     line-height: 40px;
     color: #0B1D03;
     width: 581px;
@@ -150,7 +150,7 @@ main{
 
 .variedades  {
     width: 500px;
-    padding-left: 30px;
+    padding-left: 80px;
     font-size: 40px;
     color:  #A0996C;
     padding-top: 40px;
@@ -160,13 +160,13 @@ main{
     padding-left: 0px;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     align-items: center;
 
 }
 
 .produto{
-    width: 465px;
+    width: 400px;
     background:  #F7F1E6;
     border-radius: 8px;
     align-items: center;
@@ -225,7 +225,7 @@ span {
 button{
 
     height: 60px;
-    width: 400px;
+    width: 300px;
     justify-items: center;
     background: #0B1D03;
     text-align: center;
@@ -271,7 +271,7 @@ button{
 }
 
 .catalago {
-    width: 720px;
+    width: 650px;
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,7 +301,7 @@ button{
 }
 
 .acess{
-    width: 720px;
+    width: 650px;
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -345,7 +345,16 @@ button{
     font-size: 56px;
     line-height: 60px;
     padding-top: 20px;
-    padding-left: 0px;
+    padding-left: 40px;
+}
+
+form {
+    padding-left: 30px;
+    width: 1430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .escolha {
@@ -356,22 +365,20 @@ button{
     border-radius: 4px;
     align-items: center;
     border: 2px solid #0B1D03;
-    padding-left: 18px;
     color: #969696;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 40px;
 }
 
 .Digi-ende {
-    width: 1015px;
+    width: 900px;
     height: 51px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
-    padding-left: 20px;
+    padding-left: 40px;
     color: #969696;
     font-size: 20px;
     padding-top: 0px;
-    padding-left: 10px;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -383,15 +390,11 @@ button{
 }
 
 .iframe img {
-    width: 1485px;
+    width: 1410px;
     margin-bottom: 30px;
+    padding-left: 40px;
 }
 
-footer{
-    width: 100%;
-    background: #F7F1E6;
-    
-}
 
 footer{
     width: 100%;
@@ -413,7 +416,7 @@ footer{
     font-weight: 700;
     color: #0B1D03;
     font-family: 'Playfair Display';
-    padding-left: 50px;
+    padding-left: 80px;
     padding-top: 20px;
     height: 32px;
     line-height: 28px;
@@ -438,12 +441,12 @@ ul{
 }
 
 li {
-    font-family: 'Open Sans
-    ';
-    margin: 10px 0px 10px 0;
+    font-family: 'Open Sans';
+    margin: 10px 0 10px 0;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 22px;
     color: #1F1F1F;
+    line-height: 28px;
    
 }
 
