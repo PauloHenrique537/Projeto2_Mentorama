@@ -111,7 +111,7 @@ main{
     flex-direction: column;
     align-items: center;
     padding-left: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .destaque{
@@ -151,8 +151,8 @@ main{
 
 .variedades  {
     width: 700px;
-    padding-left: 80px;
-    font-size: 40px;
+    padding-left: 55px;
+    font-size: 56px;
     color:  #A0996C;
     padding-top: 40px;
 }
@@ -167,7 +167,7 @@ main{
 }
 
 .produto{
-    width: 400px;
+    width: 450px;
     background:  #F7F1E6;
     border-radius: 8px;
     align-items: center;
@@ -197,10 +197,11 @@ main{
 
 .produto p {
     padding-top: 6px;
-    text-align: center
+    text-align: center;
     font-family: 'Open Sans';
     padding-left: 0px;
 }
+
 .primeiro_value{
    color: #0B1D03;
    font-family: 'Open Sans';
@@ -268,11 +269,11 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .catalago {
-    width: 650px;
+    width: 700px;
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,7 +303,7 @@ button{
 }
 
 .acess{
-    width: 650px;
+    width: 700px;
     height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -334,9 +335,9 @@ button{
 .contato{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 45px;
+    justify-content: space-around;
     background-color:  white;
+
 }
 
 .contato h3{
@@ -345,22 +346,24 @@ button{
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 60px;
+    padding-left: 50px;
 }
 
 form {
-    padding-left: 30px;
-    width: 1430px;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 10px;
+    margin-right: 10px;
+
 
 }
 
 .escolha {
     height: 56px;
-    width: 450px;
+    width:  470px;
     text-align: justify;
     margin-top: 0px;
     border-radius: 4px;
@@ -368,31 +371,32 @@ form {
     border: 2px solid #0B1D03;
     color: #969696;
     font-size: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
+    margin-bottom: 2px;
+    padding-right: 40px;
 }
 
 .Digi-ende {
-    width: 900px;
+    width: 870px;
     height: 51px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
-    padding-left: 40px;
+    padding-left: 20px;
     color: #969696;
     font-size: 20px;
     padding-top: 0px;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 
 .iframe {
-    padding-top: 20px;
-    padding-left:48px;
+    padding-top: 10px;
+    padding-left:20px;
 }
 
 .iframe img {
-    width: 1410px;
-    margin-bottom: 30px;
+    width: 1460px;
+    margin-bottom: 20px;
     padding-left: 40px;
     background-color:  lightgray -1633.349px -550.82px / 238.14% 389.027% no-repeat;
 }
@@ -403,7 +407,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: var(--background-fundo);
-    justify-content: center;
+    justify-content:space-between;
 }
 
 .container-footer {
@@ -419,7 +423,7 @@ footer{
     font-weight: 700;
     color: #0B1D03;
     font-family: 'Playfair Display';
-    padding-left: 90px;
+    padding-left: 60px;
     padding-top: 20px;
     height: 32px;
     line-height: 28px;
