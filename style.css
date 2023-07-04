@@ -6,6 +6,7 @@
 --preto-texto: #0B1D03;
 --background-fundo: #F7F1E6;
 --spam:#969696;
+--section:#ffffff;
 }
 
 body{
@@ -336,7 +337,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color:  white;
+    background-color: var(--section);
 
 }
 
@@ -377,7 +378,7 @@ form {
 }
 
 .Digi-ende {
-    width: 870px;
+    width: 888px;
     height: 51px;
     border: 2px solid #0B1D03;
     border-radius: 4px;
@@ -391,14 +392,14 @@ form {
 
 .iframe {
     padding-top: 10px;
-    padding-left:20px;
+    padding-left:55px;
 }
 
 .iframe img {
-    width: 1460px;
-    margin-bottom: 20px;
-    padding-left: 40px;
-    background-color:  lightgray -1633.349px -550.82px / 238.14% 389.027% no-repeat;
+    width: 1470px;
+    margin-top: 10px;
+    
+    
 }
 
 
@@ -414,6 +415,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .brand {
@@ -424,28 +426,29 @@ footer{
     color: #0B1D03;
     font-family: 'Playfair Display';
     padding-left: 60px;
-    padding-top: 20px;
+    padding-top: 25px;
     height: 32px;
     line-height: 28px;
     color: var(--coffee-black, #0B1D03);
 }
 
 .container-footer h6 {
-    width: 200px;
+    width: 170px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     align-items: center;
     color: #1F1F1F;
     padding-top: 10px;
     margin-bottom: 15px;
+    text-decoration: none;
 }
 
 ul{
     list-style-type: none;
-    padding: 0;
+    padding-left: 0px;
     margin: 0;
 }
 
@@ -458,6 +461,7 @@ li {
     line-height: 28px;
     font-style: normal;
     margin: 10px 0 10px 0;
+    text-decoration: none;
    
 }
 
@@ -465,6 +469,13 @@ li {
 .redes {
     padding-right: 12%;
     padding-top: 0px;
+    justify-items: center;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+    padding-left: 2,5px;
 }
 
 .creditos {
